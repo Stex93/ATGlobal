@@ -1,8 +1,9 @@
 function initMap() {
 
     var map = new google.maps.Map(document.getElementById('ieatmaps'), {
-      center: {lat: 34.0937458, lng: -118.3614978},
-      zoom: 12,
+      center: {lat: 45.0587999, lng: 7.6622073},
+      zoom: 14,
+      streetViewControl: false,
       styles: [
         {
         "featureType": "water",
@@ -182,8 +183,8 @@ function initMap() {
     });
 
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(34.0937458, -118.3614978)
-        , title: 'ASL'
+        position: new google.maps.LatLng(45.0587999, 7.6622073)
+        , title: 'AT Global Consulting'
         , map : map
 
     });

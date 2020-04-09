@@ -1698,6 +1698,7 @@ footer p {
 
 a.logo:hover {
   color: #dcdcdc !important;
+  transition: 0.3s;
 }
 
 .orange {

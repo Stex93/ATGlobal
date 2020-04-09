@@ -64,6 +64,8 @@ p {
   color: #7f7f7f;
   line-height: 1.6;
   margin: 0;
+  text-align: justify;
+  padding-top: 15px;
 }
 
 img {
